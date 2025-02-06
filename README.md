@@ -53,5 +53,5 @@ After running `npm start`, the app will be available at `http://localhost:3000`.
 
 - **Pagination**: The user list is divided into pages, showing 5 users per page. You can switch between pages using the pagination buttons.
 
-- **Search and Sort**: You can search for users by their name, and you can sort the users alphabetically by clicking the sort button.
+- **Search and Sort**: You can search for users by their name, and you can sort the users alphabetically by clicking the table head name and email.
 
