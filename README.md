@@ -1,8 +1,7 @@
 
-
 # React Dashboard
 
-This project is a simple React dashboard where you can see, add, update and delete user information. It pulls data from an API and lets you manage users easily. The dashboard also supports sorting, searching and pagination.
+This project is a simple React dashboard where you can view, add, update, and delete user information. The dashboard fetches data from an API and allows you to easily manage users. It also supports sorting, searching, and pagination.
 
 ## Features
 
@@ -10,22 +9,22 @@ This project is a simple React dashboard where you can see, add, update and dele
 - Add, update, and delete users
 - Search for users by name
 - Sort users by name
-- Pagination to view users in chunks
+- Pagination to view users in pages
 
 ## Tech Stack
 
-- **React**: For building the user interface.
-- **Styled Components**: To style the components.
+- **React**: Used for building the user interface.
+- **Styled Components**: For styling the components.
 - **Axios**: For making API requests.
-- **Zustand**: For state management.
+- **Zustand**: For state management (managing app data).
 
 ## How to Set It Up
 
-1. Clone the repo:
+1. Clone the repo to your computer:
 
 ```bash
-git clone https://github.com/yourusername/react-dashboard.git
-cd react-dashboard
+git clone https://github.com/aDevMister/my-assesment.git
+
 ```
 
 2. Install the required packages:
@@ -40,35 +39,19 @@ npm install
 npm start
 ```
 
-Now the app should be running on `http://localhost:3000`.
+After running `npm start`, the app will be available at `http://localhost:3000`.
 
 ## How the App Works
 
-- **Fetch Users**: When you open the app, it fetches a list of users from the API (`https://jsonplaceholder.typicode.com/users`) and stores them in state.
-  
-- **Add a User**: You can add a new user by entering their name and email. The app will send a POST request to the API to save the new user.
-  
-- **Update a User**: You can edit a user by clicking on their info, changing it, and sending a PUT request to update the details.
-  
-- **Delete a User**: If you want to remove a user, just click the delete button beside their name, and it sends a DELETE request to the API.
+- **Fetch Users**: When you open the app, it fetches a list of users from the API (`https://jsonplaceholder.typicode.com/users`) and stores the data in the app's state.
 
-- **Pagination**: The user list is split into pages, with 5 users per page. You can switch between pages using the pagination buttons.
+- **Add a User**: You can add a new user by entering their name and email. The app will send a POST request to save the new user in the API.
 
-- **Search and Sort**: You can search for users by name. Also, the users can be sorted alphabetically in ascending or descending order by clicking the sort button.
+- **Update a User**: You can edit a user by clicking on their information, making changes, and the app will send a PUT request to update their details.
 
-## How to Customize
+- **Delete a User**: To delete a user, just click the delete button next to their name. It will send a DELETE request to remove the user.
 
-If you want to change or improve this dashboard:
+- **Pagination**: The user list is divided into pages, showing 5 users per page. You can switch between pages using the pagination buttons.
 
-1. You can use your own API instead of the one provided.
-2. You can add more fields to the user model.
-3. You can add other features, like advanced filtering or sorting by other criteria.
-
-## Contributing
-
-Feel free to fork the repo and send a pull request if you have any suggestions or fixes. If you find any issues, please open a new issue in the repo.
-
----
-
-This version is in simple Nigerian English and keeps the tone friendly and easy to understand. Feel free to tweak it further if needed!
+- **Search and Sort**: You can search for users by their name, and you can sort the users alphabetically by clicking the sort button.
 
