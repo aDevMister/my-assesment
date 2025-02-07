@@ -3,7 +3,7 @@ import Dashboard from "./components/dash-board/Dashboard";
 
 const App: React.FC = () => {
   return (
-    <div className="App">
+    <div className="App" >
       <Dashboard />
     </div>
   );
